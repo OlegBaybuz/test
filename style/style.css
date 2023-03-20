@@ -1,0 +1,127 @@
+/* container */
+.container {
+position: absolute;
+width: 1170px;
+height: 665px;
+left: 171px;
+top: 1853px;
+}
+.container__header {
+    width: 1170px;
+    height: 150px;
+    max-width: 950px;
+    margin: 0 auto 40px;
+    text-align: center;
+}
+.container__title {
+    font-size: 36px;
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+}
+.container__text {
+    font-size: 18px;
+    color:#86878B;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container__title::after {
+    content:"";
+    display: block;
+    width: 160px;
+    height: 3px;
+    margin: 40px auto;
+    background-color: #EC7979;
+}
+
+/* Content */
+.content {
+width: 1170px;
+margin-left:auto;
+margin-right:auto;
+margin-top: 110px;
+border: 1px solid white;
+transform: translateX(1.7%);
+}
+.Part__1 {
+    width: 370px;
+    height: 383px;
+    display: inline-block;
+    border: 1px solid white;
+}
+.Logo_1 {
+    width: 92px;
+    height: 92px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid salmon;
+    border-radius: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.Design__title {
+width: 369px;
+height: 100px;
+margin-top: 39px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+display: flex;
+align-items: center;
+justify-content: center;
+text-transform: capitalize;
+color: #000000;
+}
+.Text__1 {
+    width: 370px;
+    height: 105px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+    }
+.Part__2 {
+    width: 370px;
+    height: 383px;
+    display: inline-block;
+    border: 1px solid white;
+}
+.logo_2 {
+    width: 92px;
+    height: 92px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid salmon;
+    border-radius: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Part__3 {
+    width: 370px;
+    height: 383px;
+    display: inline-block;
+    border: 1px solid white;
+}
+.logo_3 {
+    width: 92px;
+    height: 92px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid salmon;
+    border-radius: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
